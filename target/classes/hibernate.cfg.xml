@@ -31,7 +31,8 @@
 <!--        <property name="hibernate.hbm2ddl.auto">create-drop</property> -->
 <!--        Полная очистка схемы и создание ее по разметке Hibernate. После закрытия Factory выполняется DROP -->
 
-        <mapping class="com.flamexander.hibernate.h2.User"/>
-        <mapping class="com.flamexander.hibernate.h2.Item"/>
-    </session-factory>
-</hibernate-configuration>
+        <!-- <mapping class="com.flamexander.hibernate.h2.User"/>-->
+        <!--  <mapping class="com.flamexander.hibernate.h2.Item"/>-->
+         <mapping class="com.flamexander.hibernate.h2.Product"/>
+     </session-factory>
+ </hibernate-configuration>
